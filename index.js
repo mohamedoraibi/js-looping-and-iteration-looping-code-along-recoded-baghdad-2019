@@ -1,11 +1,11 @@
 const gifts = ['Lisa', 'Kaitlin', 'Jan'];
  
 function writeCards(gifts) {
-  let i = 0; // the initialization moved OUTSIDE the body of the loop!
+  let i = 0; 
   while (i < gifts.length) {
     console.log();
     gifts[i]=`Thank you, ${gifts[i]}, for the wonderful surprise gift!`;
-    i++; // the iteration moves INSIDE the body of the loop!
+    i++; 
   }
  
   return gifts;
@@ -21,7 +21,6 @@ function countdown(number) {
  }
  
   }
-
 
 
 countdown(5);
